@@ -9,4 +9,4 @@ const isPalindrome = (str) => {
   else console.log('Is not a Palindrome');
 };
 
-button.addEventListener('click', () => isPalindrome(input));
+button.addEventListener('click', () => isPalindrome(input.value));
